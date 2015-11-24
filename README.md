@@ -6,6 +6,10 @@ Start up the container and mount the volume on the host.
 
     docker run -d -p 8443:8443 -p 8080:8080 -p 8880:8880 -v /path/to/host/volume:/var/lib/unifi --name unifi gondoi/unifi
 
+If you wanna download from Quay.io instead, you can pull from there too.
+
+    docker pull quay.io/gondoi/unifi
+
 ## Settings
 
 A default settings file will be created in your host volume in `settings.properties`.
