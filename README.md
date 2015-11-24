@@ -4,7 +4,7 @@
 
 Start up the container and mount the volume on the host.
 
-    docker run -d -p 8443:8443 -p 8080:8080 -p 8880:8880 -v /path/to/host/volume:/var/lib/unifi --name unifi gondoi/unifi-docker
+    docker run -d -p 8443:8443 -p 8080:8080 -p 8880:8880 -v /path/to/host/volume:/var/lib/unifi --name unifi gondoi/unifi
 
 ## Settings
 
