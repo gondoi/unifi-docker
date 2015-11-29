@@ -12,7 +12,8 @@ RUN rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 ADD run.sh /usr/lib/unifi/
 
-EXPOSE 8080 8081 8443 8843 8880
+EXPOSE 8080 8443 8843 8880
+EXPOSE 27117
 VOLUME ["/var/lib/unifi"]
 
 WORKDIR /usr/lib/unifi
