@@ -1,5 +1,10 @@
 # UniFi controller in docker
 
+This repo contains a `Dockerfile` that builds an automatic `docker` image with
+each new commit.
+
+Current version of UniFi Controller: v4.8.14
+
 ## TL;DR
 
 Start up the container and mount the volume on the host.
