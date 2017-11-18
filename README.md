@@ -3,7 +3,7 @@
 This repo contains a `Dockerfile` that builds an automatic `docker` image with
 each new commit.
 
-Current version of UniFi Controller: v5.6.20
+Current version of UniFi Controller: v5.6.22
 
 ## TL;DR
 
@@ -34,3 +34,4 @@ To use the running UniFi intance the following ports need to be open.
 * 8443 - SSL web interface (self signed)
 * 8080 - Web interface
 * 8880 - Guest login interface
+* 3478 - UDP - STUN controller port
