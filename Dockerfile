@@ -6,6 +6,7 @@ RUN apt-key adv --keyserver keyserver.ubuntu.com --recv 06E85760C0A52C50; \
     apt-get -y update; \
     apt-get -y upgrade; \
     apt-get -y install \
+      openjdk-8-jre-headless \
       unifi
 
 RUN apt-get clean
