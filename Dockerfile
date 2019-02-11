@@ -1,7 +1,9 @@
 FROM ubuntu:16.04
 MAINTAINER BK Box "bk@theboxes.org"
 
-RUN apt-key adv --keyserver keyserver.ubuntu.com --recv 06E85760C0A52C50; \
+RUN apt-get -y update; \
+    apt-get -y install apt-transport-https; \
+    apt-key adv --keyserver keyserver.ubuntu.com --recv 06E85760C0A52C50; \
     echo "deb http://www.ubnt.com/downloads/unifi/debian stable ubiquiti" | tee -a /etc/apt/sources.list; \
     apt-get -y update; \
     apt-get -y upgrade; \
