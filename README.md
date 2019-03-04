@@ -3,7 +3,7 @@
 This repo contains a `Dockerfile` that builds an automatic `docker` image with
 each new commit.
 
-Current version of UniFi Controller: v5.10.12
+Current version of UniFi Controller: v5.10.17
 
 ## TL;DR
 
