@@ -19,7 +19,6 @@ ADD run.sh /usr/lib/unifi/
 EXPOSE 8080 8443 8843 8880
 EXPOSE 27117
 EXPOSE 3478/udp
-VOLUME ["/var/lib/unifi"]
 
 WORKDIR /usr/lib/unifi
 ENTRYPOINT ["/usr/lib/unifi/run.sh"]

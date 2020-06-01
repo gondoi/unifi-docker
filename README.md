@@ -3,7 +3,7 @@
 This repo contains a `Dockerfile` that builds an automatic `docker` image with
 each new commit.
 
-Current version of UniFi Controller: v5.12.66
+Current version of UniFi Controller: v5.12.72
 
 ## TL;DR
 
@@ -29,7 +29,7 @@ to ensure it can start it's own instance of MongoDB.
 
 ## Ports
 
-To use the running UniFi intance the following ports need to be open.
+To use the running UniFi instance the following ports need to be open.
 
 * 8443 - SSL web interface (self signed)
 * 8080 - Web interface
