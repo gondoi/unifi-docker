@@ -1,4 +1,4 @@
-FROM ubuntu:21.04
+FROM ubuntu:16.04
 MAINTAINER BK Box "bk@theboxes.org"
 
 RUN apt-get -y update; \
