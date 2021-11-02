@@ -1,7 +1,7 @@
 FROM ubuntu:16.04
 MAINTAINER BK Box "bk@theboxes.org"
 
-COPY README.md
+COPY README.md /
 
 RUN apt-get -y update; \
     apt-get -y install apt-transport-https; \
